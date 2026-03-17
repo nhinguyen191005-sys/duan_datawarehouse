@@ -33,7 +33,7 @@ def send_bulk_trending_emails():
 
         # --- CHẾ ĐỘ TEST: GỬI ĐẾN MAIL CHỈ ĐỊNH ---
         # Nếu muốn gửi cho khách hàng thật sau này, hãy comment dòng dưới lại
-        user_list = ["nguyenthiyennhithienbinh@gmail.com"] 
+        user_list = ["nguyenthiyennhithienbinh@gmail.com", "phmhngtr@gmail.com", "baotranhuynh2510@gmail.com"] 
         print(f"🧪 Đang chạy TEST gửi đến: {user_list}")
 
         # 1. Dự báo Top 10 (Xử lý dữ liệu AI)
