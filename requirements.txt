@@ -4,3 +4,5 @@ joblib
 sqlalchemy
 snowflake-sqlalchemy
 xgboost
+snowflake-connector-python  # Cần thiết để snowflake-sqlalchemy hoạt động ổn định
+pyarrow                     # Giúp pandas đọc dữ liệu từ Snowflake nhanh hơn
