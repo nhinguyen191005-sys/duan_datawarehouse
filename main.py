@@ -38,6 +38,15 @@ engine = create_engine(URL(
 ))
 
 def send_bulk_trending_emails():
+    def send_bulk_trending_emails():
+    try:
+        # THÊM DÒNG NÀY ĐỂ TEST:
+        user_list = ["nguyenthiyennhithienbinh@gmail.com"] # Thay bằng mail bạn muốn nhận ngay
+        print(f"🧪 Đang chạy TEST gửi đến: {user_list}")
+        
+        # (Các phần code query phía dưới cứ giữ nguyên, nó sẽ chạy nhưng 
+        # danh sách người nhận sẽ bị dòng trên ghi đè)
+
     try:
         print(f"🔄 [{time.ctime()}] Bắt đầu tiến trình gửi mail tự động...")
 
