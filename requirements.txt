@@ -1,8 +1,12 @@
 pandas
 numpy
+scikit-learn
 joblib
+xgboost
+tensorflow
 sqlalchemy
 snowflake-sqlalchemy
-xgboost
-snowflake-connector-python  
-pyarrow                     
+snowflake-connector-python
+pyarrow
+requests
+schedule
