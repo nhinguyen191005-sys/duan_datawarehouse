@@ -1,9 +1,3 @@
-name: Weekly Email Automation
-
-on:
-  schedule:
-    - cron: '0 1 * * 1' # Chạy vào 8:00 sáng Thứ 2 hàng tuần (giờ VN)
-  workflow_dispatch: # Giúp bạn có thể bấm nút chạy thử bất cứ lúc nào
 
 jobs:
   build:
